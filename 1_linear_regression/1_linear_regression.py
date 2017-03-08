@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
@@ -49,4 +51,4 @@ with tf.Session() as sess:
 plt.plot(costs)
 plt.ylabel('Cost')
 plt.xlabel('Samples')
-plt.show()
+plt.savefig("cost-sample.png")
