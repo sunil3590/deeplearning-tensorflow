@@ -1,4 +1,4 @@
-# learn-tensorflow
+# deeplearning-tensorflow
 Using tensorflow to implement a few deep learning networks
 <hr>
 ### 1_linear_regression
