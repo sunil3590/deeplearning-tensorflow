@@ -1,5 +1,5 @@
-# deeplearning-tensorflow
-Using tensorflow to implement a few deep learning networks
+# neural-nuts
+Implement deep learning networks
 <hr>
 ### 1_linear_regression
 `python 1_linear_regression.py`
@@ -17,4 +17,12 @@ It takes a 1 hot vector for a word and encodes it to a lower dimension space (in
 The decoder then tries to reconstruct the embedding to the original word
 #### Data
 Text data is a sample paragraph from the internet
+<hr>
+### 3_rl_gamer
+`python 3_rl_gamer.py`
+This network solves the CartPole-v1 environment - [evaluation](https://gym.openai.com/evaluations/eval_36Cos6YGTbefVLyPH5VlMA)<br>
+A reinforcement learning agent is implemented using PyTorch
+#### Network
+The network is a simple multi layer perceptron with 1 hidden layer.<br>
+It takes the state of the game as provided by OpenAI gym<br>
 <hr>
