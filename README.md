@@ -19,6 +19,7 @@ The decoder then tries to reconstruct the embedding to the original word
 Text data is a sample paragraph from the internet
 <hr>
 ### 3_rl_gamer
+[Reference](https://github.com/pytorch/examples/blob/master/reinforcement_learning/reinforce.py)
 `python 3_rl_gamer.py`
 This network solves the CartPole-v1 environment - [evaluation](https://gym.openai.com/evaluations/eval_36Cos6YGTbefVLyPH5VlMA)<br>
 A reinforcement learning agent is implemented using PyTorch
