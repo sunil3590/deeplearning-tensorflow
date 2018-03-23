@@ -88,7 +88,7 @@ class Gamer:
 
             # episode complete - learn and reset stuff
             if done:
-                print "Episode", episode, " Score", np.sum(self.rewards)
+                # print "Episode", episode, " Score", np.sum(self.rewards)
                 self._learn()
                 self._reset_stuff()
                 observation = self.env.reset()

@@ -44,9 +44,9 @@ with tf.Session() as sess:
         _, c = sess.run([optimizer, cost], feed_dict={x: train_x, y: train_y})
         costs.append(c.tolist()[0])
         if sample % 1000 == 0:
-            print "Cost -", c
-    print "\nFinal weight and bias (m and c)"
-    print "W -", weight.eval(), ", B -", bias.eval()
+            print("Cost -", c)
+    print("\nFinal weight and bias (m and c)")
+    print("W -", weight.eval(), ", B -", bias.eval())
 
 plt.plot(costs)
 plt.ylabel('Cost')
